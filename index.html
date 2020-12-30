@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>McProfiler by RM Curay</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="assets/css/image-card-materialize-1.css">
+    <link rel="stylesheet" href="assets/css/image-card-materialize.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Search-Form.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background-color: #546e7a;">
+    <h2 class="text-center text-white-50" title="by RM Curay">McProfiler</h2>
+    <div class="container text-truncate">
+        <form class="search-form">
+            <div class="input-group">
+                <div class="input-group-prepend"></div><input class="form-control" id="searchbox" value="" type="text" placeholder="   Enter username or uuid then click GO" style="height: 36px;">
+                <div class="input-group-append"><button class="btn btn-light" onclick="submitt()" type="button" style="margin: auto;">GO</button></div>
+            </div>
+        </form>
+        <div class="card" style="min-width: 360px;">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-auto col-sm-7 text-center" id="canvas"><img src="https://visage.surgeplay.com/full/832/5a9e66209369465983b3e2fc29660a0b"></div>
+                    <div class="col-auto col-sm-5">
+                        <span>Player: <p id="playername">Lumierre</p></span>
+                        <span>UUID: <p id="playeruuid">5a9e66209369465983b3e2fc29660a0b</p></span>
+                        <span>Status: <p id="playerstatus">OK</p></span>
+                        <hr>
+                        <button class="btn btn-primary btn-sm d-block" type="button" title="Tooltip on top" style="margin: auto;" disabled>Download skin</button>
+                        <img class="d-block" id="playerskin" src="https://visage.surgeplay.com/skin/5a9e66209369465983b3e2fc29660a0b" style="min-width: 150px;margin: auto;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <h3 class="text-center">McProfiler</h3>
+                <div class="row">
+                    <div class="col">
+                        <p class="text-justify">This was a fun project of mine studying javascript and incorporating this with my favourite game, minecraft, made it extra special. I hope you will love this project as much as I do.</p>
+                        <p class="text-right">RM Curay | Lumierre</p>
+                    </div>
+                    <div class="col-sm-12 col-md-2 text-center"><img src="https://visage.surgeplay.com/head/96/5a9e66209369465983b3e2fc29660a0b"></div>
+                </div>
+                <p class="copyright">Disclaimer: This website is not affiliated with or endorsed by Mojang & Minecraft. <br> No Rights Reserved © 2020</p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/apiscript.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/image-card-materialize.js"></script>
+</body>
+
+</html>
